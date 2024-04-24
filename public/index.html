@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue App</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/@vue/compiler-sfc"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module">
+        import { createApp } from 'vue'
+        import App from '../src/App.vue'
+
+        createApp(App).mount('#app')
+    </script>
+
+    <h1>标记</h1>
+</body>
+</html>
